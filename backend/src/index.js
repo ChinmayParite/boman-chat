@@ -11,7 +11,7 @@ import { app, server } from "./lib/socket.js";
 // Load environment variables
 dotenv.config();
 
-const PORT = process.env.PORT 
+const PORT = process.env.PORT || 5001
 const __dirname = path.resolve();
 
 // Middleware configuration
